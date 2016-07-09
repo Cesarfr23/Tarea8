@@ -31,6 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ejerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estructuraToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +52,12 @@
             // 
             // ejerciciosToolStripMenuItem
             // 
+            this.ejerciciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.estructuraToolStripMenuItem,
+            this.estructuraToolStripMenuItem1,
+            this.estructuraToolStripMenuItem2,
+            this.estructuraToolStripMenuItem3,
+            this.estructuraToolStripMenuItem4});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
             this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
@@ -56,6 +67,36 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // estructuraToolStripMenuItem
+            // 
+            this.estructuraToolStripMenuItem.Name = "estructuraToolStripMenuItem";
+            this.estructuraToolStripMenuItem.Size = new System.Drawing.Size(360, 22);
+            this.estructuraToolStripMenuItem.Text = "1- Estructura Guarda Productos";
+            // 
+            // estructuraToolStripMenuItem1
+            // 
+            this.estructuraToolStripMenuItem1.Name = "estructuraToolStripMenuItem1";
+            this.estructuraToolStripMenuItem1.Size = new System.Drawing.Size(360, 22);
+            this.estructuraToolStripMenuItem1.Text = "2- Estructura Guarda Informacion Cunta Bancaria";
+            // 
+            // estructuraToolStripMenuItem2
+            // 
+            this.estructuraToolStripMenuItem2.Name = "estructuraToolStripMenuItem2";
+            this.estructuraToolStripMenuItem2.Size = new System.Drawing.Size(360, 22);
+            this.estructuraToolStripMenuItem2.Text = "3- Estructura Guarda Informacion Mascota y su Dueno";
+            // 
+            // estructuraToolStripMenuItem3
+            // 
+            this.estructuraToolStripMenuItem3.Name = "estructuraToolStripMenuItem3";
+            this.estructuraToolStripMenuItem3.Size = new System.Drawing.Size(360, 22);
+            this.estructuraToolStripMenuItem3.Text = "4- Estructura Tipos de Neumaticos";
+            // 
+            // estructuraToolStripMenuItem4
+            // 
+            this.estructuraToolStripMenuItem4.Name = "estructuraToolStripMenuItem4";
+            this.estructuraToolStripMenuItem4.Size = new System.Drawing.Size(360, 22);
+            this.estructuraToolStripMenuItem4.Text = "5- Estructura Tipos de Estrellas ";
             // 
             // Form1
             // 
@@ -78,6 +119,11 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem ejerciciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estructuraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estructuraToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem estructuraToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem estructuraToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem estructuraToolStripMenuItem4;
     }
 }
 
