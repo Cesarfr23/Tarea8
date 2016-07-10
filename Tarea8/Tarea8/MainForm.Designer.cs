@@ -88,6 +88,7 @@
             this.estructuraToolStripMenuItem3.Name = "estructuraToolStripMenuItem3";
             this.estructuraToolStripMenuItem3.Size = new System.Drawing.Size(360, 22);
             this.estructuraToolStripMenuItem3.Text = "4- Estructura Tipos de Neumaticos";
+            this.estructuraToolStripMenuItem3.Click += new System.EventHandler(this.estructuraToolStripMenuItem3_Click);
             // 
             // estructuraToolStripMenuItem4
             // 

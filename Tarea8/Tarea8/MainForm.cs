@@ -37,5 +37,12 @@ namespace Tarea8
             mascotaYDueno.MdiParent = this;
             mascotaYDueno.Show();
         }
+
+        private void estructuraToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            TiposNeumaticos tiposNeumaticos = new TiposNeumaticos();
+            tiposNeumaticos.MdiParent = this;
+            tiposNeumaticos.Show();
+        }
     }
 }
