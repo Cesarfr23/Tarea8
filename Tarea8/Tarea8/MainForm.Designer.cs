@@ -81,6 +81,7 @@
             this.estructuraToolStripMenuItem2.Name = "estructuraToolStripMenuItem2";
             this.estructuraToolStripMenuItem2.Size = new System.Drawing.Size(360, 22);
             this.estructuraToolStripMenuItem2.Text = "3- Estructura Guarda Informacion Mascota y su Dueno";
+            this.estructuraToolStripMenuItem2.Click += new System.EventHandler(this.estructuraToolStripMenuItem2_Click);
             // 
             // estructuraToolStripMenuItem3
             // 

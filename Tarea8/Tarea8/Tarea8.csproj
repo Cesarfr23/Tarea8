@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassCuentaBancaria.cs" />
+    <Compile Include="Mascota.cs" />
     <Compile Include="CuentaBancaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +67,12 @@
       <DependentUpon>GuardarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="ClassGuardarProducto.cs" />
+    <Compile Include="MascotaYDueno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MascotaYDueno.Designer.cs">
+      <DependentUpon>MascotaYDueno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CuentaBancaria.resx">
@@ -76,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GuardarProducto.resx">
       <DependentUpon>GuardarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MascotaYDueno.resx">
+      <DependentUpon>MascotaYDueno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

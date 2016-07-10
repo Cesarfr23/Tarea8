@@ -30,5 +30,12 @@ namespace Tarea8
             cuentaBancaria.MdiParent = this;
             cuentaBancaria.Show();
         }
+
+        private void estructuraToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            MascotaYDueno mascotaYDueno = new MascotaYDueno();
+            mascotaYDueno.MdiParent = this;
+            mascotaYDueno.Show();
+        }
     }
 }
