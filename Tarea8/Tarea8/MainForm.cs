@@ -44,5 +44,12 @@ namespace Tarea8
             tiposNeumaticos.MdiParent = this;
             tiposNeumaticos.Show();
         }
+
+        private void estructuraToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            TipoEstrellas tipoEstrellas = new TipoEstrellas();
+            tipoEstrellas.MdiParent = this;
+            tipoEstrellas.Show();
+        }
     }
 }

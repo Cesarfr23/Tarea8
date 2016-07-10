@@ -24,19 +24,19 @@ namespace Tarea8
        
         private void TiposButton_Click(object sender, EventArgs e)
         {
-            TiposNeumatico tipo = (TiposNeumatico)1;
-            TiposNeumatico tipo1 = (TiposNeumatico)2;
-            TiposNeumatico tipo2 = (TiposNeumatico)3;
-            TiposNeumatico tipo3 = (TiposNeumatico)4;
-            TiposNeumatico tipo4 = (TiposNeumatico)5;
-            TiposNeumatico tipo5 = (TiposNeumatico)6;
+            TiposNeumatico tipo1 = (TiposNeumatico)0;
+            TiposNeumatico tipo2 = (TiposNeumatico)1;
+            TiposNeumatico tipo3 = (TiposNeumatico)2;
+            TiposNeumatico tipo4 = (TiposNeumatico)3;
+            TiposNeumatico tipo5 = (TiposNeumatico)4;
+            TiposNeumatico tipo6 = (TiposNeumatico)5;
 
-            TiposListBox.Items.Add(tipo);
             TiposListBox.Items.Add(tipo1);
             TiposListBox.Items.Add(tipo2);
             TiposListBox.Items.Add(tipo3);
             TiposListBox.Items.Add(tipo4);
             TiposListBox.Items.Add(tipo5);
+            TiposListBox.Items.Add(tipo6);
         }
     }
 }

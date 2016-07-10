@@ -95,6 +95,7 @@
             this.estructuraToolStripMenuItem4.Name = "estructuraToolStripMenuItem4";
             this.estructuraToolStripMenuItem4.Size = new System.Drawing.Size(360, 22);
             this.estructuraToolStripMenuItem4.Text = "5- Estructura Tipos de Estrellas ";
+            this.estructuraToolStripMenuItem4.Click += new System.EventHandler(this.estructuraToolStripMenuItem4_Click);
             // 
             // ayudaToolStripMenuItem
             // 
