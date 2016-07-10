@@ -74,6 +74,7 @@
             this.estructuraToolStripMenuItem1.Name = "estructuraToolStripMenuItem1";
             this.estructuraToolStripMenuItem1.Size = new System.Drawing.Size(360, 22);
             this.estructuraToolStripMenuItem1.Text = "2- Estructura Guarda Informacion Cunta Bancaria";
+            this.estructuraToolStripMenuItem1.Click += new System.EventHandler(this.estructuraToolStripMenuItem1_Click);
             // 
             // estructuraToolStripMenuItem2
             // 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Tarea8
 {
     
-    public struct GurdarProducto
+    public struct ClassGuardarProducto
     {
             public string nombreProducto;
             public string proveedor;

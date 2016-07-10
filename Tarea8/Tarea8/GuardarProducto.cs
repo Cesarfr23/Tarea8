@@ -19,7 +19,7 @@ namespace Tarea8
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GurdarProducto[] producto = new GurdarProducto[5];
+            ClassGuardarProducto[] producto = new ClassGuardarProducto[5];
             producto[1].nombreProducto = "";
             producto[2].proveedor = "";
             producto[3].marcaProducto = "";

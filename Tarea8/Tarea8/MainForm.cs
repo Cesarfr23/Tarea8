@@ -23,5 +23,12 @@ namespace Tarea8
             guadarProducto.MdiParent = this;
             guadarProducto.Show();
         }
+
+        private void estructuraToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CuentaBancaria cuentaBancaria = new CuentaBancaria();
+            cuentaBancaria.MdiParent = this;
+            cuentaBancaria.Show();
+        }
     }
 }
